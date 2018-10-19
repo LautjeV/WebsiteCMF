@@ -1,0 +1,52 @@
+/* Nav
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+nav li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #e65c00;
+}
+
+.intro {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+header, footer, .announce, .intro {
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  #introtext {
+    text-align: left;
+  }
+  #logo {
+    margin-left: 10%;
+  }
+}
+
+#logo {
+  display: inline-block;
+  text-align: left;
+  font-family: 'Merriweather', serif;
+  font-size: 4.5rem;
+  line-height: 0.85;
+  letter-spacing: -.1rem;
+  color: #33001a;
+  margin-bottom: 10%;
+}
+
+#line2 {
+    margin-left: 1.5rem;
+}
+
+#line3 {
+    margin-left: 3rem;
+}
