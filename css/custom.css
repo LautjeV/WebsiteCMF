@@ -1,9 +1,12 @@
 /* Nav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
 
 nav li {
   display: inline-block;
-  padding: 0px 20px;
 }
 
 nav a {
@@ -20,7 +23,7 @@ nav a:hover {
 }
 
 .intro {
-  margin-top: 5%;
+  margin-top: 2rem;
   margin-bottom: 3%;
 }
 
