@@ -2,11 +2,14 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 nav li {
-  display: inline-block;
+    display: block;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 nav a {
@@ -21,6 +24,26 @@ nav a.active {
 nav a:hover {
   color: #e65c00;
 }
+
+
+/* Artists links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#artists {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#artists li {
+    display: block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+/* Homepage
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .intro {
   margin-top: 2rem;
